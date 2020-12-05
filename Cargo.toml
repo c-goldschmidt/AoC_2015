@@ -1,0 +1,10 @@
+[package]
+name = "aoc"
+version = "0.1.0"
+authors = ["Conrad Goldschmidt <congold@live.de>"]
+edition = "2018"
+
+[dependencies]
+threadpool = "1.7.1"
+rust-crypto = "^0.2"
+regex = "1"
