@@ -5,6 +5,9 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day7;
+mod day8;
+mod day9;
 
 use crate::days::day::{New, Parts};
 
@@ -17,6 +20,9 @@ pub fn run(day_num: i32) {
         4 => day4::Day4::new(&file_name).run_both(day_num),
         5 => day5::Day5::new(&file_name).run_both(day_num),
         6 => day6::Day6::new(&file_name).run_both(day_num),
+        7 => day7::Day7::new(&file_name).run_both(day_num),
+        8 => day8::Day8::new(&file_name).run_both(day_num),
+        9 => day9::Day9::new(&file_name).run_both(day_num),
         _ => panic!("Day {} not implemented!", day_num),
     }
 }

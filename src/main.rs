@@ -2,6 +2,7 @@ mod days;
 
 extern crate crypto;
 extern crate regex;
+extern crate itertools;
 
 use std::env;
 use crate::days::run;
