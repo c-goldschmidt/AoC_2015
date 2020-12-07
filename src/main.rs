@@ -3,6 +3,7 @@ mod days;
 extern crate crypto;
 extern crate regex;
 extern crate itertools;
+extern crate json;
 
 use std::env;
 use crate::days::run;
