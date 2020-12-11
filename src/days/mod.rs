@@ -17,6 +17,15 @@ mod day13;
 mod day14;
 mod day15;
 mod day16;
+mod day17;
+mod day18;
+mod day19;
+mod day20;
+mod day21;
+mod day22;
+mod day23;
+mod day24;
+mod day25;
 
 use crate::days::day::{New, Parts};
 
@@ -39,6 +48,15 @@ pub fn run(day_num: i32) {
         14 => day14::Day14::new(&file_name).run_both(day_num),
         15 => day15::Day15::new(&file_name).run_both(day_num),
         16 => day16::Day16::new(&file_name).run_both(day_num),
+        17 => day17::Day17::new(&file_name).run_both(day_num),
+        18 => day18::Day18::new(&file_name).run_both(day_num),
+        19 => day19::Day19::new(&file_name).run_both(day_num),
+        20 => day20::Day20::new(&file_name).run_both(day_num),
+        21 => day21::Day21::new(&file_name).run_both(day_num),
+        22 => day22::Day22::new(&file_name).run_both(day_num),
+        23 => day23::Day23::new(&file_name).run_both(day_num),
+        24 => day24::Day24::new(&file_name).run_both(day_num),
+        25 => day25::Day25::new(&file_name).run_both(day_num),
         _ => panic!("Day {} not implemented!", day_num),
     }
 }
